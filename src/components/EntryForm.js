@@ -2,6 +2,7 @@ import React from 'react';
 import {Checkbox, Container, FormGroup, FormInput, Segment} from "semantic-ui-react";
 
 const EntryForm = ({description, value, isExpense, setDescription, setValue, setIsExpense}) => {
+
     return (
         <Container>
             <FormGroup>
