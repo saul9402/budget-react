@@ -1,0 +1,33 @@
+{
+  entries: [
+    {
+      id: 1,
+      description: 'Something Redux'
+    },
+    {
+      id: 2,
+      description: 'Something Else Redux'
+    },
+    {
+      id: 3,
+      description: 'Something Else Again Redux'
+    }
+  ],
+  values: [
+    {
+      id: 1,
+      value: '100.00',
+      isExpense: true
+    },
+    {
+      id: 2,
+      value: '1000.00',
+      isExpense: false
+    },
+    {
+      id: 3,
+      value: '100.00',
+      isExpense: true
+    }
+  ]
+}

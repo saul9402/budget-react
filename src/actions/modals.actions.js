@@ -1,2 +1,9 @@
-export const openEditModal = (id) => ({type: 'OPEN_EDIT_MODAL', payload: {id}})
-export const closeEditModal = () => ({type: 'CLOSE_EDIT_MODAL'})
+const types = {
+    OPEN_EDIT_MODAL: 'OPEN_EDIT_MODAL',
+    CLOSE_EDIT_MODAL: 'CLOSE_EDIT_MODAL'
+}
+
+export default types;
+
+export const openEditModal = (id) => ({type: types.OPEN_EDIT_MODAL, payload: {id}})
+export const closeEditModal = () => ({type: types.CLOSE_EDIT_MODAL})
