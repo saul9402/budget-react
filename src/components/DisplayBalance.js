@@ -5,7 +5,7 @@ const DisplayBalance = ({title, value, color = 'black', size = 'tiny'}) => {
     return (
         <Statistic size={size} color={color}>
             <Label style={{textAlign: 'center'}}> {title} </Label>
-            <StatisticValue style={{color: color}}> {'$'}{value.toFixed(2)} </StatisticValue>
+            <StatisticValue style={{color: color}}> {'$'}{isNaN(value) ? 0 : value.toFixed(2)} </StatisticValue>
         </Statistic>
     )
 };
